@@ -1,3 +1,50 @@
 .mainbg {
     background-color: bisque;
+    color: red;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.recipeimg {
+    height: auto;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc {
+    text-align: center;
+    font-weight: 900;
+}
+
+.indeg {
+    text-align: center;
+    font-weight: 900;
+}
+
+.steps {
+    text-align: center;
+    font-weight: 900;
+}
+
+.recipebg {
+    background-color: palevioletred;
+}
+
+.returnbtn {
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.returnbtn:hover {
+    background-color: green;
+    color: white;
 }
